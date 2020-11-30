@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget class="Codilar\SampleWidget\Block\Widget\Posts" id="codilar_samplewidget_posts">
+        <label>Blog Posts</label>
+        <description>Posts</description>
+        <parameters>
+            <parameter name="posts" sort_order="10" visible="true" xsi:type="text">
+                <label>Sample Posts Label</label>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>
